@@ -1,0 +1,3114 @@
+[
+    {
+        "spell_id": 1,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 2,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 2,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 3,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 3,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 4,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 4,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 5,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 5,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 6,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 6,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 6,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 7,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 7,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 7,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 8,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 9,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 9,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 10,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 10,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 10,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 11,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 12,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 12,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 13,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 13,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 14,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 14,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 15,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 16,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 17,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 17,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 18,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 19,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 19,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 19,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 20,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 21,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 21,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 22,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 22,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 23,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 23,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 23,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 23,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 23,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 24,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 24,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 25,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 26,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 26,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 26,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 27,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 28,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 29,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 29,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 30,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 30,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 30,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 30,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 31,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 31,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 31,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 31,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 32,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 32,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 33,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 33,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 34,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 35,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 35,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 36,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 37,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 37,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 38,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 38,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 39,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 39,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 39,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 39,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 39,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 40,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 40,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 40,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 41,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 41,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 41,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 42,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 42,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 42,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 42,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 43,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 44,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 44,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 45,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 45,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 46,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 46,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 47,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 48,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 48,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 49,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 49,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 49,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 49,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 50,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 51,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 51,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 52,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 52,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 52,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 52,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 53,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 53,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 54,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 55,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 55,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 56,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 56,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 57,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 57,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 58,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 58,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 59,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 59,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 60,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 60,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 61,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 62,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 62,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 63,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 63,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 63,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 64,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 64,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 64,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 65,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 65,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 65,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 66,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 66,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 66,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 67,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 67,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 68,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 68,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 68,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 69,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 69,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 70,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 70,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 70,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 70,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 70,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 71,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 71,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 71,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 72,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 72,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 72,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 73,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 73,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 73,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 73,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 74,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 74,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 74,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 74,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 74,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 75,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 75,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 76,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 76,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 77,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 77,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 78,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 78,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 79,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 79,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 79,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 79,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 79,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 79,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 79,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 80,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 80,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 80,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 80,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 81,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 81,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 81,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 82,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 82,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 82,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 82,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 83,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 83,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 83,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 84,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 84,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 85,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 85,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 86,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 86,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 86,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 86,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 86,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 86,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 86,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 87,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 88,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 89,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 90,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 90,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 91,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 91,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 91,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 91,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 92,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 92,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 92,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 93,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 93,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 93,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 94,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 95,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 95,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 95,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 96,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 97,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 97,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 97,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 97,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 98,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 98,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 99,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 100,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 100,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 101,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 101,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 101,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 101,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 101,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 102,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 102,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 102,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 103,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 103,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 103,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 103,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 104,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 105,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 106,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 107,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 107,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 108,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 108,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 108,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 108,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 109,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 109,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 109,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 110,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 110,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 110,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 110,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 111,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 112,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 113,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 113,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 113,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 114,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 114,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 114,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 115,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 115,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 115,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 116,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 116,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 117,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 118,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 118,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 118,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 119,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 119,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 120,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 121,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 122,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 122,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 123,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 123,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 124,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 125,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 125,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 125,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 126,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 126,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 126,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 126,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 127,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 128,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 128,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 128,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 129,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 129,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 129,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 129,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 130,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 130,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 130,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 130,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 131,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 132,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 132,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 132,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 133,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 133,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 133,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 134,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 134,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 134,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 134,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 134,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 135,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 135,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 136,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 137,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 137,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 138,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 138,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 139,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 139,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 139,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 140,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 140,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 141,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 142,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 142,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 142,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 143,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 143,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 143,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 144,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 145,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 145,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 146,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 146,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 147,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 148,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 148,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 148,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 149,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 150,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 150,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 150,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 150,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 151,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 152,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 152,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 153,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 153,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 154,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 154,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 154,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 155,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 155,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 156,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 157,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 157,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 158,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 158,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 159,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 159,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 160,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 160,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 160,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 160,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 161,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 161,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 161,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 161,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 161,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 161,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 162,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 163,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 164,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 164,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 164,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 164,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 165,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 165,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 165,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 166,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 166,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 167,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 167,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 167,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 168,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 168,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 169,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 169,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 170,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 171,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 171,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 171,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 172,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 173,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 173,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 173,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 173,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 174,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 174,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 175,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 175,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 175,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 175,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 176,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 176,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 176,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 177,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 177,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 177,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 178,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 178,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 178,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 178,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 178,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 179,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 179,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 180,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 180,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 180,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 180,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 181,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 181,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 182,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 182,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 182,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 183,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 183,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 183,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 183,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 183,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 183,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 184,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 184,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 184,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 184,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 184,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 184,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 185,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 185,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 185,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 185,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 186,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 186,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 187,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 187,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 187,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 187,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 188,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 188,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 188,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 188,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 189,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 190,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 190,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 191,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 191,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 192,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 192,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 193,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 193,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 194,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 194,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 194,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 194,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 195,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 195,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 195,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 196,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 197,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 198,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 198,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 198,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 198,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 199,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 200,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 201,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 201,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 201,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 201,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 201,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 202,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 202,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 202,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 203,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 203,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 204,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 204,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 205,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 205,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 205,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 205,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 206,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 206,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 206,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 207,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 207,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 207,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 208,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 208,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 209,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 209,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 209,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 210,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 210,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 211,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 212,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 212,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 212,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 213,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 213,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 213,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 214,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 214,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 215,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 216,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 217,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 218,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 219,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 219,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 219,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 219,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 220,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 220,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 220,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 220,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 220,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 221,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 221,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 221,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 222,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 222,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 222,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 222,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 223,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 223,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 223,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 223,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 224,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 224,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 224,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 224,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 225,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 225,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 225,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 225,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 226,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 227,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 227,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 227,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 227,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 228,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 228,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 229,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 230,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 231,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 232,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 232,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 233,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 233,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 234,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 234,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 234,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 234,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 234,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 235,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 235,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 235,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 235,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 236,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 236,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 236,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 236,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 237,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 237,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 237,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 238,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 238,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 238,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 239,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 239,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 240,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 240,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 241,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 241,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 241,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 242,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 243,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 243,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 243,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 243,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 244,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 245,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 245,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 246,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 246,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 247,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 247,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 247,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 248,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 248,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 249,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 250,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 251,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 252,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 252,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 253,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 253,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 253,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 253,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 253,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 254,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 255,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 255,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 255,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 256,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 256,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 256,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 257,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 257,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 257,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 258,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 259,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 259,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 260,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 260,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 260,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 260,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 261,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 261,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 262,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 262,
+        "charclass_id": 7
+    },
+    {
+        "spell_id": 263,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 264,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 264,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 265,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 265,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 265,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 266,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 266,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 266,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 267,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 268,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 268,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 268,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 269,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 269,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 269,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 270,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 270,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 271,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 272,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 272,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 272,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 273,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 273,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 274,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 274,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 274,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 275,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 275,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 275,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 276,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 276,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 277,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 278,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 279,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 279,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 279,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 280,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 280,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 280,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 281,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 281,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 281,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 281,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 282,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 283,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 283,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 283,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 283,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 284,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 284,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 284,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 285,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 285,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 285,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 286,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 286,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 286,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 287,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 287,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 288,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 289,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 289,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 289,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 290,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 290,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 290,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 291,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 292,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 292,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 292,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 292,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 293,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 293,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 294,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 294,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 295,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 295,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 295,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 295,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 295,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 296,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 297,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 297,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 298,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 298,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 298,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 299,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 299,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 300,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 300,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 300,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 300,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 300,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 301,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 301,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 301,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 301,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 302,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 302,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 302,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 303,
+        "charclass_id": 11
+    },
+    {
+        "spell_id": 303,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 304,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 305,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 305,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 305,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 306,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 307,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 308,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 308,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 308,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 309,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 310,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 311,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 311,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 311,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 311,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 312,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 312,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 312,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 312,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 313,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 313,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 314,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 315,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 316,
+        "charclass_id": 4
+    },
+    {
+        "spell_id": 316,
+        "charclass_id": 8
+    },
+    {
+        "spell_id": 317,
+        "charclass_id": 10
+    },
+    {
+        "spell_id": 317,
+        "charclass_id": 12
+    },
+    {
+        "spell_id": 318,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 319,
+        "charclass_id": 2
+    },
+    {
+        "spell_id": 319,
+        "charclass_id": 3
+    },
+    {
+        "spell_id": 319,
+        "charclass_id": 7
+    }
+]
