@@ -14,6 +14,7 @@ class Character extends Model
         'race_id',
         'charclass_id',
         'name',
+        'level',
         'atributes',
         'spell_list',
         'equipment_list',

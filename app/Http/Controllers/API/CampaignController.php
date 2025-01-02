@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\API;
 
 use App\Http\Resources\CampaignResource;
 use App\Models\Campaign;
@@ -25,6 +25,11 @@ class CampaignController extends BaseController
      */
     public function store(Request $request)
     {
+        // Check if the authenticated user is a master
+        if (!auth()->user()->isMaster()) {
+            return response()->json(['error' => 'Unauthorized'], 403);
+        }
+
         $input = $request->all();
 
         // Prevent creation if master_id is 1
@@ -35,20 +40,42 @@ class CampaignController extends BaseController
             ], 403);
         }
 
+        // Automatically assign the authenticated user's ID to the user_id
+        $input['user_id'] = auth()->id();
+
         $validator = Validator::make($input, [
-            'master_id' => 'required|exists:masters,id',
             'name' => 'required|string|max:255',
-            'num_players' => 'required|integer|min:1',
+            'num_chars' => 'required|integer|min:1',
+            'setting' => 'required|string|max:255',
+            'homebrew_list' => 'nullable|array',
+            'ban_list' => 'nullable|array',
+            'ban_list.classes' => 'array|nullable',
+            'ban_list.races' => 'array|nullable',
+            'ban_list.spells' => 'array|nullable',
             'description' => 'required|string',
-            'char_list' => 'array',
         ]);
 
         if ($validator->fails()) {
             return $this->sendError('Validation Error.', $validator->errors());
         }
 
-        // Convert array to JSON
-        $input['char_list'] = json_encode($input['char_list']);
+        // Convert ban_list array to JSON
+        if (!empty($input['ban_list'])) {
+            $input['ban_list'] = json_encode($input['ban_list']);
+        } else {
+            $input['ban_list'] = null;
+        }
+
+        // Apenas codificar para JSON se não for vazio
+        if (!empty($input['homebrew_list'])) {
+            $input['homebrew_list'] = json_encode($input['homebrew_list']);
+        }
+
+        if (!empty($input['homebre_list'])) {
+            $input['homebrew_list'] = json_encode($input['homebrew_list']);
+        } else {
+            $input['homebrew_list'] = null;
+        }
 
         $camp = Campaign::create($input);
 
@@ -88,6 +115,10 @@ class CampaignController extends BaseController
             'num_players' => 'integer|min:1',
             'description' => 'string',
             'char_list' => 'array',
+            'ban_list' => 'nullable|array',
+            'ban_list.classes' => 'array|nullable',
+            'ban_list.races' => 'array|nullable',
+            'ban_list.spells' => 'array|nullable',
         ]);
 
         if ($validator->fails()) {
@@ -105,6 +136,9 @@ class CampaignController extends BaseController
         }
         if ($request->has('char_list')) {
             $camp->char_list = json_encode($input['char_list']);
+        }
+        if ($request->has('ban_list')) {
+            $camp->ban_list = json_encode($input['ban_list']);
         }
         $camp->save();
 

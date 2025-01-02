@@ -17,10 +17,11 @@ class CharacterResource extends JsonResource
         return [
             'id' => $this->id,
             'camp_id'=> $this->camp_id,
-            'user_id'=> $this->player_id,
+            'user_id'=> $this->user_id,
             'race_id'=> $this->race_id,
             'charclass_id'=> $this->charclass_id,
             'name' => $this->name,
+            'level' => $this->level,
             'atributes'=> $this->atributes,
             'spell_list'=> $this->spell_list,
             'equipment_list'=> $this->spell_list,

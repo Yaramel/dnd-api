@@ -9,13 +9,22 @@ use App\Http\Controllers\API\BaseController as BaseController;
 
 class EquipmentController extends BaseController
 {
-     /**
+    /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $equipments = Equipment::get();
+        $query = Equipment::query();
+
+        // Apply filter by type if provided
+        if ($request->has('type')) {
+            $query->where('type', $request->input('type'));
+        }
+
+        // Get the filtered results
+        $equipments = $query->get();
         $count = $equipments->count();
+
         return $this->sendResponse(EquipmentResource::collection($equipments), 'Equipments retrieved successfully.', $count);
     }
 

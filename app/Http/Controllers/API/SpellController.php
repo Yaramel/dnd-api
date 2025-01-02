@@ -15,10 +15,36 @@ class SpellController extends BaseController
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $spells = Spell::get();
+        $query = Spell::query();
+    
+        // Apply filter by name if provided
+        if ($request->has('name')) {
+            $query->where('name', $request->input('name'));
+        }
+    
+        // Apply filter by level if provided
+        if ($request->has('level')) {
+            $query->where('level', $request->input('level'));
+        }
+    
+        // Apply filter by school if provided
+        if ($request->has('school')) {
+            $query->where('school', $request->input('school'));
+        }
+    
+        // Apply filter by class if provided
+        if ($request->has('class')) {
+            $query->whereHas('classes', function ($q) use ($request) {
+                $q->where('name', $request->input('class'));
+            });
+        }
+    
+        // Get the filtered results
+        $spells = $query->get();
         $count = $spells->count();
+    
         return $this->sendResponse(SpellResource::collection($spells), 'Spells retrieved successfully.', $count);
     }
 
@@ -30,22 +56,12 @@ class SpellController extends BaseController
      */
     public function store(Request $request)
     {
-
         // Check if the authenticated user is a master
         if (!auth()->user()->isMaster()) {
             return response()->json(['error' => 'Unauthorized'], 403);
         }
 
         $input = $request->all();
-
-        // Check if the authenticated user has the 'master' role
-        // $user = $request->user();
-        // if ($user->role !== 'master') {
-        //     return response()->json([
-        //         'success' => false,
-        //         'message' => 'Only masters can create spells.',
-        //     ], 403);
-        // }
 
         // Automatically assign the authenticated user's ID to the user_id
         $input['user_id'] = auth()->id();

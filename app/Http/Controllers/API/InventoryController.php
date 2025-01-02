@@ -6,6 +6,7 @@ use App\Http\Resources\InventoryResource;
 use App\Models\Inventory;
 use Illuminate\Http\Request;
 use App\Http\Controllers\API\BaseController as BaseController;
+use Validator;
 
 class InventoryController extends BaseController
 {
@@ -24,7 +25,25 @@ class InventoryController extends BaseController
      */
     public function store(Request $request)
     {
-        //
+        // Check if the authenticated user is a player
+        if (!auth()->user()->isPlayer()) {
+            return response()->json(['error' => 'Unauthorized'], 403);
+        }
+
+        $input = $request->all();
+
+        $validator = Validator::make($input, [
+            'char_id'=> 'required|exists:characters,id',
+            'equipment_id'=> 'required|exists:equipments,id',
+        ]);
+
+        if ($validator->fails()) {
+            return $this->sendError('Validation Error.', $validator->errors());
+        }
+
+        $inventory = Inventory::create($input);
+
+        return $this->sendResponse(new InventoryResource($inventory), 'Inventory created successfully.');
     }
 
     /**
@@ -32,15 +51,12 @@ class InventoryController extends BaseController
      */
     public function show(string $id)
     {
-        //
-    }
+        $inventory = Inventory::find($id);
+        if (!$inventory) {
+            return response()->json(['message' => 'Inventory not found'], 404);
+        }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
-    {
-        //
+        return response()->json(['data' => $inventory], 200);
     }
 
     /**

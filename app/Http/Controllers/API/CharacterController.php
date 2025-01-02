@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\API;
 
 use App\Http\Resources\CharacterResource;
 use App\Models\Character;
+use App\Models\CharClass;
 use Illuminate\Http\Request;
 use App\Http\Controllers\API\BaseController as BaseController;
 use Validator;
@@ -25,15 +26,73 @@ class CharacterController extends BaseController
      */
     public function store(Request $request)
     {
+        // Check if the authenticated user is a player
+        if (!auth()->user()->isPlayer()) {
+            return response()->json(['error' => 'Unauthorized'], 403);
+        }
+
         $input = $request->all();
 
+        // Ensure camp_id is empty on creation
+        $input['camp_id'] = null;
+        // Automatically assign the authenticated user's ID to the user_id
+        $input['user_id'] = auth()->id();
+
+        // Validate input
         $validator = Validator::make($input, [
-            'camp_id' => 'required|exists:campaigns,id',
-            'player_id' => 'required|exists:players,id',
             'race_id' => 'required|exists:races,id',
             'charclass_id' => 'required|exists:charclasses,id',
-            'atributes' => 'required|array',
-            'spell_list' => 'array',
+            'name' => 'required|string',
+            'level' => 'required|integer|min:1|max:20',
+            'atributes' => [
+                'required',
+                'array',
+                function ($attribute, $value, $fail) {
+                    $requiredKeys = ['str', 'con', 'dex', 'int', 'wis', 'cha'];
+                    foreach ($requiredKeys as $key) {
+                        if (!array_key_exists($key, $value)) {
+                            $fail("The $attribute must contain the $key key.");
+                        } elseif (!is_int($value[$key])) {
+                            $fail("The $key value in $attribute must be an integer.");
+                        }
+                    }
+                }
+            ],
+            'spell_list' => [
+                'nullable',
+                'array',
+                function ($attribute, $value, $fail) use ($input) {
+                    if (!empty($value)) {
+                        $charclass = CharClass::find($input['charclass_id']);
+                        if ($charclass->spellcast_atr === 'N/A') {
+                            $fail("The selected charclass does not have spellcasting abilities, so $attribute cannot be filled.");
+                        }
+                    }
+                }
+            ],
+            'equipment_list' => [
+                'nullable',
+                'array',
+                function ($attribute, $value, $fail) {
+                    $requiredKeys = ['weapons', 'armors', 'itens'];
+                    foreach ($requiredKeys as $key) {
+                        if (!array_key_exists($key, $value)) {
+                            $fail("The $attribute must contain the $key key.");
+                        } elseif (!is_array($value[$key])) {
+                            $fail("The $key in $attribute must be an array.");
+                        }
+                    }
+
+                    // Validar itens dentro de cada array específico
+                    foreach (['weapons', 'armors'] as $key) {
+                        foreach ($value[$key] as $item) {
+                            if (!isset($item['id']) || !is_int($item['id']) || !isset($item['equiped']) || !is_bool($item['equiped'])) {
+                                $fail("Each item in $key must have 'id' (integer) and 'equiped' (boolean) keys.");
+                            }
+                        }
+                    }
+                }
+            ],
             'description' => 'required|string',
         ]);
 
@@ -43,7 +102,14 @@ class CharacterController extends BaseController
 
         // Convert arrays to JSON
         $input['atributes'] = json_encode($input['atributes']);
-        $input['spell_list'] = json_encode($input['spell_list']);
+        if (!empty($input['spell_list'])) {
+            $input['spell_list'] = json_encode($input['spell_list']);
+        }else {
+            $input['spell_list'] = null;
+        }
+        if (!empty($input['equipment_list'])) {
+            $input['equipment_list'] = json_encode($input['equipment_list']);
+        }
 
         $char = Character::create($input);
 
@@ -78,6 +144,29 @@ class CharacterController extends BaseController
             'atributes' => 'array',
             'spell_list' => 'array',
             'description' => 'string',
+            'equipment_list' => [
+                'nullable',
+                'array',
+                function ($attribute, $value, $fail) {
+                    $requiredKeys = ['weapons', 'armors', 'itens'];
+                    foreach ($requiredKeys as $key) {
+                        if (!array_key_exists($key, $value)) {
+                            $fail("The $attribute must contain the $key key.");
+                        } elseif (!is_array($value[$key])) {
+                            $fail("The $key in $attribute must be an array.");
+                        }
+                    }
+
+                    // Validar itens dentro de cada array específico
+                    foreach (['weapons', 'armors'] as $key) {
+                        foreach ($value[$key] as $item) {
+                            if (!isset($item['id']) || !is_int($item['id']) || !isset($item['equiped']) || !is_bool($item['equiped'])) {
+                                $fail("Each item in $key must have 'id' (integer) and 'equiped' (boolean) keys.");
+                            }
+                        }
+                    }
+                }
+            ],
         ]);
 
         if ($validator->fails()) {
@@ -112,7 +201,7 @@ class CharacterController extends BaseController
 
         return $this->sendResponse(new CharacterResource($char), 'Character updated successfully.');
     }
-
+    
     /**
      * Remove the specified resource from storage.
      */
@@ -121,4 +210,5 @@ class CharacterController extends BaseController
         $char->delete();
         return $this->sendResponse([], 'Character deleted successfully.');
     }
+
 }

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Resources\CastResource;
 use App\Models\Cast;
+use App\Models\CharClass;
 use Illuminate\Http\Request;
 use App\Http\Controllers\API\BaseController as BaseController;
 use Validator;
@@ -25,7 +26,21 @@ class CastController extends BaseController
      */
     public function store(Request $request)
     {
+        // Check if the authenticated user is a master
+        if (!auth()->user()->isMaster()) {
+            return response()->json(['error' => 'Unauthorized'], 403);
+        }
+
         $input = $request->all();
+
+        // Fetch the charclass to check its spellcasting_atr
+        $charclass = CharClass::find($input['charclass_id']);
+        if ($charclass->spellcast_atr === 'N/A') {
+            return response()->json([
+                'success' => false,
+                'message' => 'The selected charclass does not have spellcasting abilities.',
+            ], 403);
+        }
 
         $validator = Validator::make($input, [
             'spell_id' => 'required|exists:spells,id',
@@ -35,15 +50,6 @@ class CastController extends BaseController
         if ($validator->fails()) {
             return $this->sendError('Validation Error.', $validator->errors());
         }
-
-        // Fetch the charclass to check its spellcasting_atr
-        // $charclass = CharClass::find($input['charclass_id']);
-        // if ($charclass->spellcasting_atr === 'N/A') {
-        //     return response()->json([
-        //         'success' => false,
-        //         'message' => 'The selected charclass does not have spellcasting abilities.',
-        //     ], 403);
-        // }
 
         $cast = Cast::create($input);
 
