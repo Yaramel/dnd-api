@@ -20,7 +20,12 @@ Route::get('/user', function (Request $request) {
 // Endpoints to register, login and logout
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
-Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');
+// Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');
+// Route::get('/user-profile', [AuthController::class, 'userProfile'])->middleware('auth:sanctum');
+Route::middleware(['auth:sanctum'])->group(function () {
+    Route::get('/user-profile', [AuthController::class, 'userProfile']);
+    Route::post('/logout', [AuthController::class, 'logout']);
+});
 
 
 // Endpoints to create campaigns and homebrews

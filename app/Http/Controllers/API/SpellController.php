@@ -47,9 +47,11 @@ class SpellController extends BaseController
         //     ], 403);
         // }
 
+        // Automatically assign the authenticated user's ID to the user_id
+        $input['user_id'] = auth()->id();
 
-        // Prevent creation if user_id is 1
-        if (isset($input['user_id']) && $input['user_id'] == 1) {
+        // Prevent creation if user_id = 1 (core spell restriction)
+        if ($input['user_id'] == 1) {
             return response()->json([
                 'success' => false,
                 'message' => 'You cannot create a core spell.',
@@ -57,7 +59,6 @@ class SpellController extends BaseController
         }
 
         $validator = Validator::make($input, [
-            'user_id' => 'required|exists:users,id',
             'name' => 'required|string|max:255',
             'level' => 'required|integer|min:0|max:9',
             'casting_time' => 'required|string|max:255',

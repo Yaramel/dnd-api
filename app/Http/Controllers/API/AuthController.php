@@ -4,11 +4,14 @@ namespace App\Http\Controllers\API;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
+use Laravel\Sanctum\HasApiTokens;
 
 class AuthController extends BaseController
 {
+    use HasApiTokens, Notifiable;
     public function register(Request $request)
     {
         $request->validate([
@@ -54,6 +57,41 @@ class AuthController extends BaseController
             'access_token' => $token,
             'token_type' => 'Bearer',
         ]);
+    }
+
+    // public function userProfile(Request $request)
+    // {
+    //     $user = $request->user(); // The middleware ensures this will always be an authenticated user
+    
+    //     return response()->json([
+    //         'id' => $user->id,
+    //         'name' => $user->name,
+    //         'email' => $user->email,
+    //         'role' => $user->role
+    //     ]);
+    // }
+    public function userProfile(Request $request)
+    {
+        
+        try {
+            $user = $request->user();
+    
+
+            // Log the user details for debugging
+            \Log::info('Authenticated user:', ['user' => $user]);
+    
+            return response()->json([
+                'id' => $user->id,
+                'name' => $user->name,
+                'email' => $user->email,
+                'role' => $user->role,
+            ]);
+        } catch (\Exception $e) {
+            // Log the exception for debugging
+            \Log::error('Error in userProfile:', ['message' => $e->getMessage()]);
+    
+            return response()->json(['error' => 'An unexpected error occurred.'], 500);
+        }
     }
 
     public function logout(Request $request)
